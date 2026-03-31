@@ -59,6 +59,15 @@ nav {
     justify-content: space-between;
 }
 
+.nav__links {
+ display: flex;
+}
+
+.nav__link--primary {
+  border: 2px solid #7342d6;
+  border-radius: 4px;
+}
+
 .nav__logo {
     display: flex;
     align-items: center;
@@ -72,12 +81,13 @@ nav {
  margin-left: 12px;
  padding-bottom: 2px;
  letter-spacing: 0.6px;
+ display: flex;
 }
 
-.nav__logo--img
- {
+.nav__logo--img {
     height: 40px;
     width: 40px;
+    display: flex;
 }
 
 img {
