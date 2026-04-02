@@ -234,6 +234,20 @@ header .row {
     justify-content: space-between;
 }
 
+.header__description {
+ width: 40%;
+ font-size: 0.9rem;
+}
+
+h1 {
+ text-align: left;
+}
+
+.purple-text {
+ color: purple;
+}
+
+
 
 /* 
 
