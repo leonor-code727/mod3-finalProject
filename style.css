@@ -235,12 +235,45 @@ header .row {
 }
 
 .header__description {
- width: 40%;
+ width: 35%;
+ display: flex;
+ flex-direction: column;
+ gap: 2rem;
  font-size: 0.9rem;
 }
 
 .header__img--wrapper {
- width: 1%;
+ width:50%;
+}
+
+.header__email {
+    position: relative;
+}
+
+.for_you {
+    color: rgb(100, 21, 255);
+}
+
+.header__email--input {
+    width: 100%;
+    padding: 20px 192px 20px 32px;
+    border-radius: 999px;
+    border: 2px solid rgb(229, 231, 235);;
+}
+
+.header__email--button {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    border-radius: 999px;
+    border: none;
+    outline: none;
+    background: rgb(100, 21, 255);
+    height: calc(100% - 16px);
+    width: 160px;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
 }
 
 h1 {
