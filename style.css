@@ -131,7 +131,7 @@ nav {
 
 .nav__logo > span {
     font-weight: 900;
-    font-size: 24px
+    font-size: 24px;
 }
 
 .nav__logo--title {
@@ -239,6 +239,10 @@ header .row {
  font-size: 0.9rem;
 }
 
+.header__img--wrapper {
+ width: 1%;
+}
+
 h1 {
  text-align: left;
 }
@@ -246,7 +250,6 @@ h1 {
 .purple-text {
  color: purple;
 }
-
 
 
 /* 
@@ -257,7 +260,7 @@ FEATURES ↓
 
 
 #features {
-    position: relative;
+position: relative;
 }
 
 #features .row__narrow {
@@ -377,9 +380,8 @@ MOBILE RESPONSIVENESS ↓
 }
 
 @media (max-width: 1024px) {
-
-    .btn__menu {
-        display: block;
+ .btn__menu {
+  display: block;
     }
     header .row {
         flex-direction: column;
