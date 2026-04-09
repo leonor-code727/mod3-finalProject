@@ -296,7 +296,7 @@ FEATURES ↓
 */
 
 .features {
- width: 25%;
+ width: 33%;
 }
 
 .features__para {
@@ -308,11 +308,12 @@ FEATURES ↓
  padding-top: 32px;
  display: flex;
 }
+
 .feature__title {
 display: flex;
 justify-content: center;
 align-items: center;
-width: 25%;
+width: 33%;
 }
 
 .section__tag {
@@ -373,7 +374,7 @@ position: relative;
 }
 
 .feature__img {
- width: 20px;
+ width: 33px;
  height: 20px;
 }
 
@@ -381,7 +382,7 @@ position: relative;
 display: flex;
 justify-content: center;
 align-items: center;
-width: 25%;
+width: 33%;
 }
 
 
