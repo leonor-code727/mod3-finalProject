@@ -295,8 +295,8 @@ FEATURES ↓
 
 */
 
-.features {
- width: 33%;
+.feature {
+ width: calc(100% / 3);
 }
 
 .features__para {
@@ -365,6 +365,11 @@ h2 {
 
 #features {
 position: relative;
+}
+
+.features {
+ display: flex;
+ flex-wrap: wrap;
 }
 
 #features .row__narrow {
