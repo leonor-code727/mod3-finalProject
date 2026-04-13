@@ -474,7 +474,7 @@ h2 {
  font-size: 0.9rem;
 }
 
-#quality .row {
+.quality .row {
 display: flex;
 justify-content: space-between;
 align-items: center;
