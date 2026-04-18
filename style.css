@@ -27,6 +27,12 @@ body {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
+    display: flex;
+}
+
+.header__description a {
+ width: 40%;
+ text-align: center;
 }
 
 .container {
@@ -433,13 +439,13 @@ font-weight: 600;
 }
 
 .container__row {
- width:100%;
+ width: 100%;
  max-width: 1200px;
  margin: 0 auto;
 }
 
 .header__img--wrapper {
- width:60%;
+ width: 60%;
  display: flex;
  flex-direction: column;
 }
@@ -473,7 +479,7 @@ STEPS ↓
 .section__title {
 font-size: 50px;
 margin-bottom: 1rem;
-font-weight: 600;
+font-weight: 900;
 }
 
 .container {
@@ -481,7 +487,7 @@ padding: 60px 0;
 }
 
 .header__img--wrapper {
- width:60%;
+ width: 60%;
  display: flex;
  flex-direction: column;
 }
