@@ -476,6 +476,12 @@ STEPS ↓
 
 */
 
+#steps .row__narrow{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
 .section__title {
 font-size: 50px;
 margin-bottom: 1rem;
