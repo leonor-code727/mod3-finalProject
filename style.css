@@ -495,7 +495,7 @@ padding: 60px 0;
 .step__title {
  margin: 0;
 padding: 0;
-box-sizing: boder-box;
+box-sizing: border-box;
 }
 
 .step__number {
@@ -510,6 +510,16 @@ color: #7c8ba1;
 font-size: 15px;
 font-weight: 500;
 line-height: 1;
+margin-bottom: 24px;
+display: flex;
+gap: 16px;
+font-size: 20px;
+}
+
+.step {
+display: flex;
+gap: 16px;
+margin-bottom: 24px;
 }
 
 .container__row {
