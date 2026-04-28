@@ -569,6 +569,10 @@ align-items: center;
  gap: 24px; /* optional spacing */
  }
 
+ .value {
+ width: 50%;
+ }
+
 
  .section__title {
 font-size: 50px;
