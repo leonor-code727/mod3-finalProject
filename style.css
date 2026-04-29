@@ -550,8 +550,9 @@ VALUES ↓
 
 #values .row {
 display: flex;
-justify-content: space-between;
 align-items: center;
+justify-content: space-between;
+gap: 64px;
 }
 
 .value__para {
@@ -569,8 +570,17 @@ align-items: center;
  gap: 24px; /* optional spacing */
  }
 
- .value {
+ .value__description {
  width: 50%;
+ }
+
+ .value__img--wrapper {
+ width: 50%;
+ }
+
+ .values__list {
+ display: flex;
+ gap: 32px;
  }
 
 
