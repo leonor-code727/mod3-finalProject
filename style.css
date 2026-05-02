@@ -548,6 +548,10 @@ VALUES ↓
 
 */
 
+p.value__para {
+color: #7c8ba1;
+}
+
 #values .row {
 display: flex;
 align-items: center;
